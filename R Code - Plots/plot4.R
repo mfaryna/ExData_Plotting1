@@ -86,7 +86,7 @@ axis(1, at=c(1, (nrow(set)-1)/2, nrow(set)), labels=days)
 plot(
   set$Global_reactive_power
   ,ylab = "Global_reactive_power"
-  ,xlab = ""
+  ,xlab = "datetime"
   ,xaxt = "n"
   ,col = "black"
   ,type = "l"
